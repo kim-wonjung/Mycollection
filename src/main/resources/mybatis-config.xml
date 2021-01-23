@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+
+	<properties>
+        <property name="diary_reply" value="diary_reply"/>
+        <property name="col_d_rno" value="d_rno"/>
+        <property name="col_d_bno" value="d_bno"/>
+        <property name="col_userid" value="userid"/>
+        <property name="col_d_reply_content" value="d_reply_content"/>
+        <property name="col_d_reply_date" value="d_reply_date"/>  
+ 	    
+
+	</properties>
+	<typeAliases>
+		<package name="com.spring.mycollection.domain" />
+	</typeAliases>
+
+	
+
+
+
+</configuration>
